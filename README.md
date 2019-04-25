@@ -41,7 +41,7 @@ commitChecker.checkStart();
 只需创建实例并传递参数，`defaultEventNames` 为支持的默认检测功能的集合
 
 - `isGit`：检测是否为 `git` 管理的项目；
-- `email`：检测提交的邮箱是否为 `ele` 或者 `alibaba-inc` 的邮箱；
+- `email`：检测提交的邮箱是否为使用者公司规定使用的邮箱（正则根据邮箱自行配置）；
 - `conflict`：检测文件是否有冲突，目的是为了让没有支持 `eslint` 的项目使用；
 - `eslint`：用来检测时自动检测代码是否符合 `eslint` 规范。
 
